@@ -1,10 +1,10 @@
-{%extends 'base.html'%}
-{% block head%}
-<link rel="stylesheet" href="../../../static/article-main.css">
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/article-main.css') }}"/>
 <title>Winter mixed swim stroke workout</title>
 {% endblock %}
 
-{% block content%}
+{% block content %}
 <main>
     <article>
         <h1>تمرین استروک شنا مختلط در زمستان
@@ -126,4 +126,4 @@
         
     </article>
 </main>
-{%endblock%}
+{% endblock %}

@@ -1,10 +1,10 @@
-{%extends 'base.html'%}
-{% block head%}
-<link rel="stylesheet" href="../../../static/article-main.css">
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/article-main.css') }}"/>
 <title>Wim Hof Method</title>
 {% endblock %}
 
-{% block content%}
+{% block content %}
 <main>
     <article>
         <h1>روش ویم هوف: این روش چیست و چگونه می تواند به شنا کردن در آب های آزاد کمک کند
