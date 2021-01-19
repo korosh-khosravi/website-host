@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forgotPass</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/forgetpass.css">
+    <link rel="stylesheet" href="../../static/login.css">
+    <title>forgetpassword</title>
 </head>
 <body>
+
+
     <h1 style="color:red;text-align:center;">!توجه: این صفحه فعال نیست</h1>
     <div class="container">
 
         <div class="header">
-            <img src="./images/logo.png" alt="logo">
+            <img src="../../static/image/logo.png" alt="logo">
         </div>
         
         <form action="">
@@ -22,15 +23,12 @@
         <div class="bottom">
 
             
-            <a href="/vscode/website/index.html">Home</a>
-            <a href="/vscode/website/assets/register.html">Register</a>
-            <a href="/vscode/website/assets/Login.html">Already Have Account</a>
+            <a href="{{url_for('home')}}">Home</a>
+            <a href="{{url_for('register')}}">Register</a>
+            <a href="{{url_for('login')}}">Already Have Account</a>
             
             
         </div>
     </div>
-   
-    
-    
 </body>
 </html>

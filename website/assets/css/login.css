@@ -6,7 +6,7 @@
 body, html{
     font-size: 14px;
     font-family:arial, sans-serif;
-    background-image: url("/vscode/website/assets/images/background.jpg");
+    background-image: url("static/image/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -67,15 +67,15 @@ form input:not([type="checkbox"]):not([type="submit"]){
 .bottom{
     
     text-align:center;
-    margin-top:20px;
+    margin-top:0px;
 }
 .bottom a{
     text-decoration:none;
     color:black;
     font-size:1rem;
     cursor:pointer;
-    display:inline-block;
-    padding-top:5px;
+    display:block;
+    padding:2px;
 }
 .bottom a:hover{
     text-decoration:underline;

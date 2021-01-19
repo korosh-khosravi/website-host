@@ -9,6 +9,7 @@
     {% endblock %}
 </head>
 <body>  
+   
     <div id="wrapper"> 
         <header>
             <div class="logo" id="logo">
@@ -18,9 +19,9 @@
             <div class="top">
                 <img src="../static/image/user.svg" alt="">
                 <div class="link-div">
-                <a href="/vscode/website/assets/Login.html">Login</a>
+                <a href="{{ url_for('login') }}">Login</a>
                 <span style="font-size: 1rem; color:yellow;">|</span>                
-                <a href="/vscode/website/assets/register.html">Register</a>  
+                <a href="{{ url_for('register') }}">Register</a>  
                 </div>
             </div>
             <nav>
@@ -36,50 +37,50 @@
                                 <label for="A-A">پروانه / Butterfly</label>
                                     <ul class="super-menu">
                             
-                                        <li><a href="{{ url_for('kick') }}"> ضربه پا / Kick</a></li>
-                                        <li><a href="{{ url_for('arm') }}">دست / Arm Stroke</a></li>  
-                                        <li><a href="{{ url_for('recovery') }}">بازیابی / Recovery</a></li> 
-                                        <li><a href="{{ url_for('breathing') }}">نفس گیری / Breathing</a></li>     
-                                        <li><a href="{{ url_for('leverage') }}">قدرت نفوذ / Leverage</a></li>  
-                                        <li><a href="{{ url_for('coordination') }}">هماهنگی / Coordination</a></li>
-                                        <li><a href="{{ url_for('body_position') }}">وضعیت بدن / Body Position</a></li>   
+                                        <li><a href="{{ url_for('butterfly_kick') }}"> ضربه پا / Kick</a></li>
+                                        <li><a href="{{ url_for('butterfly_arm') }}">دست / Arm Stroke</a></li>  
+                                        <li><a href="{{ url_for('butterfly_recovery') }}">بازیابی / Recovery</a></li> 
+                                        <li><a href="{{ url_for('butterfly_breathing') }}">نفس گیری / Breathing</a></li>     
+                                        <li><a href="{{ url_for('butterfly_leverage') }}">قدرت نفوذ / Leverage</a></li>  
+                                        <li><a href="{{ url_for('butterfly_coordination') }}">هماهنگی / Coordination</a></li>
+                                        <li><a href="{{ url_for('butterfly_body_position') }}">وضعیت بدن / Body Position</a></li>   
                                     </ul>
                             </li>
                             <li><input type="checkbox" name="swim" id="A-B"/>
                                 <label for="A-B">کرال پشت / Backstroke</label>
                                 <ul class="super-menu">
-                                    <li><a href="/vscode/website/assets/backstroke/kick.html"> ضربه پا / Kick</a></li>
-                                    <li><a href="/vscode/website/assets/backstroke/arm.html">دست / Arm Stroke</a></li>  
-                                    <li><a href="/vscode/website/assets/backstroke/recovery.html">بازیابی / Recovery</a></li> 
-                                    <li><a href="/vscode/website/assets/backstroke/breathing.html">نفس گیری / Breathing</a></li>     
-                                    <li><a href="/vscode/website/assets/backstroke/leverage.html">قدرت نفوذ / Leverage</a></li>  
-                                    <li><a href="/vscode/website/assets/backstroke/coordination.html">هماهنگی / Coordination</a></li>
-                                    <li><a href="/vscode/website/assets/backstroke/body-position.html">وضعیت بدن / Body Position</a></li>      
+                                    <li><a href="{{ url_for('backstroke_kick') }}"> ضربه پا / Kick</a></li>
+                                    <li><a href="{{ url_for('backstroke_arm') }}">دست / Arm Stroke</a></li>  
+                                    <li><a href="{{ url_for('backstroke_recovery') }}">بازیابی / Recovery</a></li> 
+                                    <li><a href="{{ url_for('backstroke_breathing') }}">نفس گیری / Breathing</a></li>     
+                                    <li><a href="{{ url_for('backstroke_leverage') }}">قدرت نفوذ / Leverage</a></li>  
+                                    <li><a href="{{ url_for('backstroke_coordination') }}">هماهنگی / Coordination</a></li>
+                                    <li><a href="{{ url_for('backstroke_body_position') }}">وضعیت بدن / Body Position</a></li>       
                                 </ul>
                             </li>
                             <li><input type="checkbox" name="swim" id="A-C"/>
                                 <label for="A-C">قورباغه / Breaststroke</label>
                                 <ul class="super-menu">
-                                    <li><a href="/vscode/website/assets/breaststroke/kick.html"> ضربه پا / Kick</a></li>
-                                    <li><a href="/vscode/website/assets/breaststroke/arm.html">دست / Arm Stroke</a></li>  
-                                    <li><a href="/vscode/website/assets/breaststroke/recovery.html">بازیابی / Recovery</a></li> 
-                                    <li><a href="/vscode/website/assets/breaststroke/breathing.html">نفس گیری / Breathing</a></li>     
-                                    <li><a href="/vscode/website/assets/breaststroke/leverage.html">قدرت نفوذ / Leverage</a></li>  
-                                    <li><a href="/vscode/website/assets/breaststroke/coordination.html">هماهنگی / Coordination</a></li>
-                                    <li><a href="/vscode/website/assets/breaststroke/body-position.html">وضعیت بدن / Body Position</a></li>   
+                                    <li><a href="{{ url_for('breaststroke_kick') }}"> ضربه پا / Kick</a></li>
+                                    <li><a href="{{ url_for('breaststroke_arm') }}">دست / Arm Stroke</a></li>  
+                                    <li><a href="{{ url_for('breaststroke_recovery') }}">بازیابی / Recovery</a></li> 
+                                    <li><a href="{{ url_for('breaststroke_breathing') }}">نفس گیری / Breathing</a></li>     
+                                    <li><a href="{{ url_for('breaststroke_leverage') }}">قدرت نفوذ / Leverage</a></li>  
+                                    <li><a href="{{ url_for('breaststroke_coordination') }}">هماهنگی / Coordination</a></li>
+                                    <li><a href="{{ url_for('breaststroke_body_position') }}">وضعیت بدن / Body Position</a></li>     
                                     
                                 </ul>
                             </li>
                             <li><input type="checkbox" name="swim" id="A-D"/>
                                 <label for="A-D">کرال سینه / Front Crawl</label>
                                 <ul class="super-menu">
-                                    <li><a href="/vscode/website/assets/bfreestyle/kick.html"> ضربه پا / Kick</a></li>
-                                    <li><a href="/vscode/website/assets/bfreestyle/arm.html">دست / Arm Stroke</a></li>  
-                                    <li><a href="/vscode/website/assets/bfreestyle/recovery.html">بازیابی / Recovery</a></li> 
-                                    <li><a href="/vscode/website/assets/bfreestyle/breathing.html">نفس گیری / Breathing</a></li>     
-                                    <li><a href="/vscode/website/assets/bfreestyle/leverage.html">قدرت نفوذ / Leverage</a></li>  
-                                    <li><a href="/vscode/website/assets/bfreestyle/coordination.html">هماهنگی / Coordination</a></li>
-                                    <li><a href="/vscode/website/assets/bfreestyle/body-position.html">وضعیت بدن / Body Position</a></li>     
+                                    <li><a href="{{ url_for('freestyle_kick') }}"> ضربه پا / Kick</a></li>
+                                    <li><a href="{{ url_for('freestyle_arm') }}">دست / Arm Stroke</a></li>  
+                                    <li><a href="{{ url_for('freestyle_recovery') }}">بازیابی / Recovery</a></li> 
+                                    <li><a href="{{ url_for('freestyle_breathing') }}">نفس گیری / Breathing</a></li>     
+                                    <li><a href="{{ url_for('freestyle_leverage') }}">قدرت نفوذ / Leverage</a></li>  
+                                    <li><a href="{{ url_for('freestyle_coordination') }}">هماهنگی / Coordination</a></li>
+                                    <li><a href="{{ url_for('freestyle_body_position') }}">وضعیت بدن / Body Position</a></li>      
                                 </ul>
                             </li>      
                         </ul>

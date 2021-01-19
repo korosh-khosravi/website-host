@@ -4,13 +4,22 @@ article{
     line-height:1.5;
     font-family: "B Nazanin", arial;
     font-size:20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom:80px;    /*new add*/
 }
 article > *{
     grid-column: 2;
     min-width: 0;
     direction: rtl;
+}
+article h3, h4, h5{
+    color:var(--dark-gray);
+    font-family: "B Titr", arial;
+}
+
+article q{
+    font-weight: bold;
+    font-style: italic;
 }
 article h1, h2{
     margin-top:50px;
@@ -134,4 +143,37 @@ hr{
         font-size:16px;
     }
   
+}
+
+
+article table{
+    border:2px rgb(30, 8, 228) solid;
+    border-collapse: collapse;
+    width:100%;  
+    font-weight: bolder;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:22px;
+    
+}
+td, th{
+    border:2px rgb(30, 8, 228) solid;
+    padding:10px;  
+}
+td{
+    text-align:left
+}
+th{
+    font-family: 'B Titr', arial;
+}
+table td:first-child {
+    text-align: center;
+}
+article a{
+    text-decoration: none;
+    color:blue;
+    
+}
+article a:hover{
+    color:red;
 }

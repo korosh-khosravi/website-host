@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
-    <link rel="stylesheet" href="/vscode/website/assets/css/normalize.css">
-    <link rel="stylesheet" href="/vscode/website/assets/css/global-header-footer.css">
-    <link rel="stylesheet" href="/vscode/website/assets/css/article-main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/article-main.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
     <script> 
       $(function(){
-        $("#header").load("/vscode/website/assets/template/header.html"); 
-        $("#footer").load("/vscode/website/assets/template/footer.html"); 
+        $("#header").load("../template/header.html"); 
+        $("#footer").load("../template/footer.html"); 
       });
       </script> 
 
 </head>
 <body>
-    <div id="wrapper"></div>
+    <div id="wrapper">
             <div id="header"></div>
+            <div class="content-wrapper">
             <main>
                 <article>
                     <h1>روش ویم هوف: این روش چیست و چگونه می تواند به شنا کردن در آب های آزاد کمک کند
 
                     </h1>
-                    <p>از روش ویم هوف شنیده اید اما نمی دانید چیست؟ جان وود توضیح می دهد که چگونه این روش تنفسی می تواند به سرما و استرس شنا در آب های آزاد کمک کند</p>
+                    <h4>از روش ویم هوف شنیده اید اما نمی دانید چیست؟ جان وود توضیح می دهد که چگونه این روش تنفسی می تواند به سرما و استرس شنا در آب های آزاد کمک کند</h4>
                     <div class="main-pic">
                         <img src="/vscode/website/assets/article/image/Wim Hof Method.jpg" alt="">
                     </div>
                     <br>
                     <hr>
                     <div class="text">
-                        <p>روش ویم هوف ابزاری برای یادگیری کنترل سیستم عصبی غیر ارادی و بهبود انرژی و آگاهی ، با به کارگیری تمرینات تنفسی و قرار گرفتن در معرض درجه حرارت سرد است.</p>
+                        <h5>روش ویم هوف ابزاری برای یادگیری کنترل سیستم عصبی غیر ارادی و بهبود انرژی و آگاهی ، با به کارگیری تمرینات تنفسی و قرار گرفتن در معرض درجه حرارت سرد است.</h5>
                         <p>ویم هوف ، یک ورزشکار افراطی هلندی که به دلیل توانایی خود در مقاومت در برابر دمای یخ زدگی ، اظهار داشت که روش تنفس او به کاهش تمایل اولیه برای فرار از درد و ترس - و از سرما کمک می کند. این بسیار یک حالت مراقبه ای از وجود است.
                         </p>
                         <p>دو زمینه اصلی تمرکز روی روش های آقای هوف وجود دارد که اولین مورد آن سرما است. گذراندن وقت در سرما اگر مزایای بالقوه قابل توجهی داشته باشد ، اگر به درستی انجام شود. ثانیا تنفس می آید. به گفته آقای هوف ، تنفس هوشیارتر ، عمیق تر ، کندتر و کنترل شده ، اکسیژن رسانی خون را افزایش می دهد و به نوبه خود میزان استرس را کاهش می دهد.
@@ -44,9 +45,10 @@
                     <em>January 4, 2020</em>
                 </article>
             </main>
-            <div id="push"></div>
-    </div>
-        <div id="footer"></div>
+            </div>
+            
     
+        <div id="footer"></div>
+    </div>
 </body>
 </html>
