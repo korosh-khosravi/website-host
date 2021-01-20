@@ -1,0 +1,20 @@
+   <div>
+      <div>
+        <a href="{{url_for('Winter_mixed')}}">تمرین استروک شنا مختلط در زمستان
+        </a>
+      </div>
+        <div>
+        <img src="{{ url_for('static', filename='article-image/Winter mixed swim stroke workout.jpg') }}" alt="picture">
+      </div>
+    </div>
+
+     <!-- ### -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/Wim Hof Method.jpg') }}" alt="picture">
+      </div>
+         <div>
+        <a href="{{url_for('article')}}">روش ویم هوف: این روش چیست و چگونه می تواند به شنا کردن در آب های آزاد کمک کند
+        </a>
+      </div>
+    </div>    

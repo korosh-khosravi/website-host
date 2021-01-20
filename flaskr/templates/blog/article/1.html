@@ -9,10 +9,11 @@
     <article>
         <h1>تمرین استروک شنا مختلط در زمستان
         </h1>
-        <h4>  کرال سینه مسابقه خود را با شنا کردن مجموعه های ضربتی ترکیبی در زمستان تقویت کنید و جوایز فصل آینده را بدست آورید
-        </h4>
+        <h5>  کرال سینه مسابقه خود را با شنا کردن مجموعه های ضربتی ترکیبی در زمستان تقویت کنید و جوایز فصل آینده را بدست آورید
+        </h5>
         <div class="main-pic">
-            <img src="../../../static/article-image/Winter mixed swim stroke workout.webp" alt="">
+            <img src="{{ url_for('static', filename='article-image/Winter mixed swim stroke workout.jpg') }}" alt="picture">
+            
         </div>
         <br>
         <hr>
@@ -59,7 +60,7 @@
                 </tr>
 
                 <tr>
-                    <td>دریل جمع کردن<a href="../freestyle/arm.html#sculling">[۱]</a> </td>
+                    <td>دریل جمع کردن<a href="{{url_for('freestyle_arm', _anchor='sculling')}}">[۱]</a> </td>
                     <td width="150px">متر۵۰ * ۴ </td>
                 </tr>
                 <tr>
@@ -68,11 +69,11 @@
                     <td width="150px">متر۱۰۰ </td>
                 </tr>
                 <tr>
-                    <td>دریل شنا تک دست<a href="../freestyle/arm.html#">[۲]</a></td>
+                    <td>دریل شنا تک دست<a href="{{url_for('freestyle_arm', _anchor='')}}">[۲]</a></td>
                     <td width="150px">متر۵۰ * ۴ </td>
                 </tr>
                 <tr>
-                    <td>۲۵ متر دریل تک دست پروانه<a href="../butterfly/arm.html#">[۳]</a>، ۲۵ متر شنای کامل سینه
+                    <td>۲۵ متر دریل تک دست پروانه<a href="{{url_for('freestyle_arm', _anchor='')}}">[۳]</a>، ۲۵ متر شنای کامل سینه
                     </td>
                     <td width="150px">متر۱۰۰</td>
                 </tr>

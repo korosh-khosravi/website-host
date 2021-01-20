@@ -3,16 +3,14 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows:repeat(2,285px);
     grid-gap: 6px;
-    margin-bottom:6px;         /*new add*/
-    
+    margin-bottom:6px;         /*new add*/  
 }
 .grid div{
     direction:rtl;
 }
 .grid div:first-child{
     grid-column: 1/4;
-    grid-row: 1/-1;
-    
+    grid-row: 1/-1; 
 }
 .grid div:first-child div:first-child{
     height: 20%;
@@ -20,8 +18,7 @@
     font-size:clamp(24px, 4vw, 34px);
     background:black;
     font-weight: bolder;
-    
-    
+    font-family: 'B Titr', arial;   
 }
 .grid div:first-child div{
     height: 80%;
@@ -29,13 +26,13 @@
 }
 .grid div:not(:first-child) div:first-child{
     height: 60%;
-    
-    
 }
 .grid > div:not(:first-child) > div:not(:first-child){
+    font-family: 'B Titr', arial;
     height: 40%;
-    font-size:20px;
+    font-size:18px;
     padding:8px;
+    padding-top: 15px;
     text-align: center;
     background:var(--dark-gray);
     
