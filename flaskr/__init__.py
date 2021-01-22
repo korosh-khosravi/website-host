@@ -132,7 +132,7 @@ def freestyle_leverage():
 def freestyle_recovery():
     return render_template('blog/freestyle/recovery.html')
 
-# #######################  ####################### #
+# ####################### article ####################### #
 
 @app.route('/Winter_mixed_swim')
 def number_1():
@@ -174,9 +174,10 @@ def number_6():
 # def number_10():
 #     return render_template('blog/article/10.html')
 
-
-
-
+# ####################### flexibility ####################### #
+@app.route('/Flexibility')
+def flexibility():
+    return render_template('blog/flexibility/flexibility.html')
 
 
 

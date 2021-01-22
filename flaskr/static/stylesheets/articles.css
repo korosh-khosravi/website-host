@@ -46,6 +46,19 @@ article ul li {
     font-size: 20px;
     text-align: justify;
 }
+article p{
+    font-size:20px;
+    color:black;
+    margin-top:10px;
+}
+article figure{
+    margin-top:30px;
+}
+article figcaption{
+    color:red;
+    font: bold 16px 'B Titr', arial;
+
+}
 .header-img{
     grid-column: 1/-1;
     margin-top: 0;

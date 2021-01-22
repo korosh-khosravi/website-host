@@ -42,15 +42,13 @@ article p{
 }
 article  ul{
     margin-right: 10px;
-    color:var(--red);
-    font-size: 24px;
     list-style: square;  
 }
 
 article ul li {
-    color:var(--black);
+    color:var(--dark-gray);
     font-weight: bolder;
-    margin-top:20px;
+    margin-top:10px;
     font-size: 20px;
     text-align: justify;
 }
@@ -64,88 +62,7 @@ article ul li {
 hr{
     border-top: 2px solid black;
     margin-bottom: 20px;
-  
 }
-.text{
-    white-space: pre-line;
-}
-.whole{
-    /* width:80%; */
-    height: 100%;
-    margin-left:auto ;
-    margin-right:auto;
-    text-align:justify;
-    line-height:1.6;
-    font-family:'B Nazanin';
-    font-size:18px;
-    color:white;
-    white-space:pre-line;
-}
-#aboutmain{
-    min-height:520px;
-    background-color:navy;
-    
-}
-#numeric{
-    list-style:persian;
-    -moz-list-style:persian;
-}
-.picture{
-    float:left;
-    max-width:100%;
-    max-height:auto;
-}
-@media (max-width:1024px){
-    article{
-        
-        grid-template-columns: 60px 1fr 60px;
-    }
-    .picture{
-        max-width:55%;
-        max-height:auto;
-    }     
-}
-@media (max-width:670px){
-    article{
-        font-size: 18px;
-        grid-template-columns: 30px 1fr 30px;
-    }
-    .picture{
-        max-width:45%;
-        max-height:auto;
-    }
-    article  ul{
-        font-size: 22px;
-    }
-    article ul li{
-        font-size:18px;
-    }
-    article h1{
-        font-size:28px;
-    }
-    
-  
-
-}
-@media (max-width:480px){
-    article{ 
-        grid-template-columns: 15px 1fr 15px;
-        font-size:16px;
-    }
-    .picture{ 
-        max-width:35%;
-        max-height:auto;
-    }
-    article  ul{
-        font-size: 20px;
-    }
-    article ul li{
-        font-size:16px;
-    }
-  
-}
-
-
 article table{
     border:2px rgb(30, 8, 228) solid;
     border-collapse: collapse;
@@ -171,9 +88,150 @@ table td:first-child {
 }
 article a{
     text-decoration: none;
-    color:blue;
-    
+    color:blue;  
 }
 article a:hover{
     color:red;
+}
+article figure{
+    margin-top:30px;
+}
+article figcaption{
+    color:red;
+    font: bold 16px 'B Titr', arial;
+}
+.text{
+    white-space: pre-line;
+}
+
+#numeric{
+    list-style:persian;
+    -moz-list-style:persian;
+}
+.picture{
+    float:left;
+    max-width:100%;
+    max-height:auto;
+}
+/* ########## about ########## */
+.about{
+    width:100%;
+    border: 1px navy solid;
+    height:calc(100vh - 140px);
+    background-color:navy;
+}
+.mypic{
+    width:150px;
+    height: 140px;
+    position:absolute;
+    top: 280px;
+    left: 15%;
+}
+.mypic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.maindiv{
+    border-bottom:4px var(--yellow) solid;
+    border-top:4px var(--yellow) solid ;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 170px;
+    margin-top: 80px;   
+}
+.maindiv q{
+    font-style:italic;
+    font-weight: bold;
+    color:white;
+    text-align: justify;
+    direction:rtl;
+    float:right;
+    white-space:pre-line;
+    padding-top: 25px;
+    padding-bottom: auto;  
+}
+
+@media (max-width:1024px){
+    article{    
+        grid-template-columns: 60px 1fr 60px;
+    }
+    .picture{
+        max-width:55%;
+        max-height:auto;
+    }
+    .about{
+        height:calc(100vh - 110px);
+    }
+    .maindiv{
+        width:80%;
+        height:200px;
+    }
+}
+@media (max-width:700px){
+    .maindiv{
+        width:95%;
+        height:200px;
+    }
+    .mypic{
+        left:7%;
+        
+    }
+}
+@media (max-width:670px){
+    article{
+        font-size: 18px;
+        grid-template-columns: 30px 1fr 30px;
+    }
+    .picture{
+        max-width:45%;
+        max-height:auto;
+    }
+    article  ul{
+        font-size: 22px;
+    }
+    article ul li{
+        font-size:18px;
+    }
+    article h1{
+        font-size:28px;
+    }
+}
+@media (max-width:580px){
+    .maindiv{
+        width:95%;
+        height:240px;
+    }
+    .mypic{
+        top:320px;
+        left:5%;
+        width:120px;
+        height:110px;
+        
+    }
+}
+@media (max-width:480px){
+    article{ 
+        grid-template-columns: 15px 1fr 15px;
+        font-size:18px;
+    }
+    .picture{ 
+        max-width:35%;
+        max-height:auto;
+    }
+    article  ul{
+        font-size: 20px;
+    }
+    article ul li{
+        font-size:18px;
+    }
+    .maindiv{
+        width:95%;
+        height:280px;
+    }
+    .mypic{
+        top:370px;
+    }
+  
 }

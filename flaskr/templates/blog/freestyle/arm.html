@@ -7,7 +7,7 @@
 {% block content%}
 <main>
     <div class="header-img">
-        <img src="../../../static/freestyle-image/freestyle-arm.jpg" alt="">
+        <img src="{{ url_for('static', filename='freestyle-image/freestyle-arm.jpg')}}" alt="picture">
     </div>
     <article>
         <h1>تمرین های دست شنا کرال سینه 
@@ -29,8 +29,8 @@
             <li>دستیابی به حالت آرنج بالا</li>
             <li> استفاده از تمام طول استروک
             </li>
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/arm-PullPush Freestyle.jpg')}}" alt="picture">
             
-            <img class="picture" src="../../../static/freestyle-image/arm-PullPush Freestyle.jpg" alt="taking bow">
         </ul>
 
         
@@ -61,8 +61,8 @@
             <li>احساس شتاب در استروک بازو
             </li>
             <li>ایجاد یک ضربه بازوی زیر آب با آرنج بالا</li>
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/arm-Catch Up.jpg')}}" alt="picture">
             
-            <img class="picture" src="../../../static/freestyle-image/arm-Catch Up.jpg" alt="taking bow">
         </ul>
 
         
@@ -78,9 +78,9 @@
             </li>
             <li>چندین طول استخر را ادامه دهید. هنگامی که به آب فشار می آورید ، حرکت را فشار دهید و از طریق کشش سرعت بگیرید ، حرکت هر ضربه بازو را احساس کنید. توجه داشته باشید که همیشه یک بازو پیشرو و یک بازو نوازش می کند.</li>
         </ul>
-        <figure style="margin-top: 30px; ">
+        <figure>
             <iframe width="100%" height="490" src="https://www.youtube.com/embed/a3-DKS6GXV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption style="color:red;  font: bold 16px B Titr; ">*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
+            <figcaption>*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
         </figure>
 
         <h2>
@@ -94,8 +94,8 @@
             <li>تمرین توسعه تراز شدن
             </li>
             <li>شروع ضربه بازو از موقعیت قدرت</li>
-            
-            <img class="picture" src="../../../static/freestyle-image/arm-All Thumbs Drill.jpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/arm-All Thumbs Drill.jpg')}}" alt="picture">
+           
         </ul>
 
         
@@ -125,8 +125,8 @@
             <li>یادگیری چسبیدن به آب</li>
             <li>تمرین تغییر گام دست
             </li>
-            
-            <img class="picture" src="../../../static/freestyle-image/arm-Scullingjpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/arm-Sculling.jpg')}}" alt="picture">
+           
         </ul>
         <ul id="numeric">
            چطور تمرین را انجام دهیم
@@ -144,9 +144,9 @@
             <li>هنگامی که توانایی نگه داشتن آب در هنگام پیاده روی را پیدا کردید ، هنگام شنای آزاد آن را امتحان کنید. همانطور که بازوی شما از جلو به عقب شتاب می گیرد ، عمل کشیدن کشیده را احساس کنید. در تمام طول استروک آب را نگه دارید. دست خود را طوری تنظیم کنید که از طریق استروک جارو می شود تا آب را حفظ کند.
             </li>
         </ul>
-        <figure style="margin-top: 30px; ">
+        <figure>
             <iframe width="100%" height="490" src="https://www.youtube.com/embed/JjN7cWvP_sY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption style="color:red;  font: bold 16px B Titr; ">*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
+            <figcaption>*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
         </figure>
         <h2>
             کرال سینه با دست مشت کرده
@@ -158,8 +158,8 @@
             <li>یادگیری احساس آب با بازو</li>
             <li>درک اهمیت آرنج پایدار و بلند</li>
             <li>قدردانی از نقش دست</li>
-            
-            <img class="picture" src="../../../static/freestyle-image/arm-Fist Freestyle.jpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/arm-Fist Freestyle.jpg')}}" alt="picture">
+           
         </ul>
 
         
@@ -176,9 +176,52 @@
             <li>طول متناوب مشت و سبک آزاد دست را ادامه دهید تا زمانی که آب را با یک دست و پا زدن که هم دست و هم ساعد را شامل می شود احساس کنید.
             </li>
         </ul>
-        <figure style="margin-top: 30px; ">
+        <figure>
             <iframe width="100%" height="490" src="https://www.youtube.com/embed/GdGSNe9iZBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption style="color:red;  font: bold 16px B Titr; ">*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
+            <figcaption>*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
+        </figure>
+        <h2>
+            گرفتن عظیم
+           <br>
+            Mega-Catch-Up Drill</h2>
+        <ul>
+            اهداف این تمرین
+            
+            <p>این تمرین  شما را تشویق می کند تا با کمی چرخش به سمت دیگر ، "تنظیم" کنید. این حالت را بیشتر شبیه شنای واقعی می کند ، زیرا هرگز گرفتن را از حالت صاف شروع نمی کنید (یا مطمئناً نباید).
+            </p>
+
+        </ul>
+
+        <ul id="numeric">
+           چطور تمرین را انجام دهیم
+        
+            <li>دریل در سه مرحله است. شما با تخته ضرباتی که به طول نگه داشته می شود شروع می کنید (روش عادی). دستان خود را روی عرض شانه تخته بگذارید. یکی از دستان خود را به زیر تخته بریزید و آن را به جلو فشار دهید. وقتی این کار را انجام می دهید ، شانه مقابل بلند می شود یا به بالا می چرخد. به محض بالا آمدن شانه ، با دستی که زیر آب است شروع به گرفتن آن کنید.
+            </li>
+            <li>تمام چرخش را از طریق کشش بچرخانید ، با دست ضربه به عقب بزنید تا دامنه کامل از کشش خارج شود.
+            </li>
+            <li>در فاز دو ، صفحه را به پهلو بچرخانید. دریل همان فاز یک است ، فقط اکنون می توانید برای رسیدن به گذشته یک هدف داشته باشید. دست کشیده خود را به صفحه بچرخانید و شانه مخالف را به سمت بالا بچرخانید. مثل قبل دوباره بکشید ، تمام قسمت را از انتها عبور دهید ، و مطمئن شوید که دست خود را دوباره به عرض شانه بر روی تخته قرار دهید.
+            </li>
+            <li>مرحله سه پایان است. تمرین را بدون تخته انجام دهید. دست ها باید از عرض شانه ها فاصله داشته باشند. در حالی که شانه مخالف را به سمت بالا می چرخانید ، یک بازوی خود را گسترش دهید. همانطور که آن شانه شروع به افتادن می کند ، دست را به عقب بکشید و از قسمت انتهایی ضربه بزنید.
+            </li>
+        </ul>
+        <figure>
+            <iframe width="100%" height="490" src="https://www.youtube.com/embed/bDl8mXZIYKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
+        </figure>
+        <h2>
+           گرفتن دو ضربه ای
+           <br>
+            Double Tap Catch Up Drill</h2>
+        <ul>
+            اهداف این تمرین
+            <li>کمک به ریکاوری در حالت آرنج بالا </li>
+            <li>چرخش بلند</li>
+            <li>آماده شدن برای مرحله گرفتن</li>
+
+        </ul>
+        <figure>
+            <iframe width="100%" height="490" src="https://www.youtube.com/embed/E2kgBhCRib8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>*برای مشاهده ویدیو از فیلتر شکن استفاده کنید!</figcaption>
         </figure>
     </article>
 </main>
