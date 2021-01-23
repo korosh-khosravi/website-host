@@ -102,13 +102,11 @@
                     <li><input type="checkbox" name="main-list" id="C"/>
                         <label for="C">تمرین بدنسازی</label>
                         <ul class="sub-menu">
-                            <li><a href="#"> پا / Kick</a></li>
-                            <li><a href="#">دست / Arm Stroke</a></li>  
-                            <li><a href="#">بهبودی / Recovery</a></li> 
-                            <li><a href="#">نفس گیری / Breathing</a></li>     
-                            <li><a href="#">قدرت نفوذ / Leverage</a></li>  
-                            <li><a href="#">هماهنگی / Coordination</a></li>
-                            <li><a href="#">وضعیت بدن / Body Position</a></li>       
+                            <li><a href="{{url_for('full_body')}}">تمام بدن / Full Body</a></li>        
+                            <li><a href="{{url_for('upper_lower')}}"> بالاتنه-پایین تنه / Upper/Lower</a></li>
+                            <li><a href="{{url_for('pull_push_legs')}}">فشار / کشیدن / پاها / Push/Pull/Legs</a></li> 
+                            <li><a href="{{url_for('body_part')}}">تفکیکی / Body Part</a></li> 
+                                  
                         </ul>
                     </li>
                     <li><a href="#">آموزش </a>

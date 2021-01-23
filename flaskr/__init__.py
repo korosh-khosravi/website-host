@@ -175,10 +175,28 @@ def number_6():
 #     return render_template('blog/article/10.html')
 
 # ####################### flexibility ####################### #
+
 @app.route('/Flexibility')
 def flexibility():
     return render_template('blog/flexibility/flexibility.html')
 
+# ####################### bodybuilding ####################### #
+
+@app.route('/full_body')
+def full_body():
+    return render_template('blog/bodybuilding/fullbody.html')
+
+@app.route('/upper_lower')
+def upper_lower():
+    return render_template('blog/bodybuilding/upper_lower.html')
+
+@app.route('/pull_push_legs')
+def pull_push_legs():
+    return render_template('blog/bodybuilding/pull_push_legs.html')
+
+@app.route('/Body_Part')
+def body_part():
+    return render_template('blog/bodybuilding/body_part.html')
 
 
 # #######################  ####################### #

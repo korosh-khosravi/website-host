@@ -64,18 +64,18 @@ hr{
     margin-bottom: 20px;
 }
 article table{
-    border:2px rgb(30, 8, 228) solid;
     border-collapse: collapse;
     width:100%;  
     font-weight: bolder;
     margin-left:auto;
     margin-right:auto;
-    font-size:22px;
-    
+    font-size:20px;  
+    font-family: 'B Titr', arial;
 }
 td, th{
-    border:2px rgb(30, 8, 228) solid;
+    border:1px rgb(166, 165, 168) solid;
     padding:10px;  
+    
 }
 td{
     text-align:left
@@ -86,6 +86,22 @@ th{
 table td:first-child {
     text-align: center;
 }
+tr > th{
+    background-color:orange;
+}
+
+.bodybuilding tr:nth-child(2) th{
+    background-color: rgb(167, 164, 164);
+}
+.bodybuilding tr td:first-child{
+    text-align:right;
+}
+.bodybuilding tr td{
+    text-align:center;
+}
+
+
+
 article a{
     text-decoration: none;
     color:blue;  
