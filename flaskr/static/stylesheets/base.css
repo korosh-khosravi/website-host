@@ -1,5 +1,5 @@
 /* Global */
-@font-face {font-family:"B Nazanin"; 
+/* @font-face {font-family:"B Nazanin"; 
     src: url("//db.onlinewebfonts.com/t/3671adca6f650c92b83f906e49656986.eot"); 
     src: url("//db.onlinewebfonts.com/t/3671adca6f650c92b83f906e49656986.eot?#iefix") 
     format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3671adca6f650c92b83f906e49656986.woff2") 
@@ -14,7 +14,27 @@
         format("woff2"), url("//db.onlinewebfonts.com/t/a0ea7e7833cd4f7694a4913fccb9aacf.woff")
         format("woff"), url("//db.onlinewebfonts.com/t/a0ea7e7833cd4f7694a4913fccb9aacf.ttf") 
         format("truetype"), url("//db.onlinewebfonts.com/t/a0ea7e7833cd4f7694a4913fccb9aacf.svg#B Titr") 
-        format("svg"); } 
+        format("svg"); }  */
+
+/* @font-face{
+    font-family:'B Nazanin';
+    src: url("/static/font/B Nazanin.TTF")
+} */
+@font-face{
+    font-family:'B Titr';
+    src: url("/static/font/B Titr.ttf")
+}
+
+@font-face {
+    font-family: 'B Nazanin';
+    src: local('/static/font/'),
+        url('/static/font/BNazanin.woff2') format('woff2'), 
+        url('/static/font/BNazanin.woff') format('woff'), 
+        url('/static/font/BNazanin.ttf') format('truetype');
+    font-weight: 400;
+    font-stretch: normal;
+}
+
 :root{
 
     --black: black;
