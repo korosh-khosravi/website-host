@@ -346,6 +346,8 @@ footer{
 
 iframe{
     border:4px var(--dark-gray) solid;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 

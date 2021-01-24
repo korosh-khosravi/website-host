@@ -103,13 +103,21 @@
                         <label for="C">تمرین بدنسازی</label>
                         <ul class="sub-menu">
                             <li><a href="{{url_for('full_body')}}">تمام بدن / Full Body</a></li>        
-                            <li><a href="{{url_for('upper_lower')}}"> بالاتنه-پایین تنه / Upper/Lower</a></li>
+                            <li><a href="{{url_for('upper_lower')}}"> بالاتنه-پایین تنه / Upper/Lower Body</a></li>
                             <li><a href="{{url_for('pull_push_legs')}}">فشار / کشیدن / پاها / Push/Pull/Legs</a></li> 
                             <li><a href="{{url_for('body_part')}}">تفکیکی / Body Part</a></li> 
                                   
                         </ul>
                     </li>
-                    <li><a href="#">آموزش </a>
+                    <li><input type="checkbox" name="main-list" id="D"/>
+                        <label for="D"> آموزش</label>
+                        <ul class="sub-menu">
+                            <li><a href="{{url_for('butterfly')}}">شنا پروانه</a></li>        
+                            <li><a href="{{url_for('backstroke')}}"> شنا کرال پشت</a></li>
+                            <li><a href="{{url_for('breaststroke')}}">شنا قورباغه</a></li> 
+                            <li><a href="{{url_for('freestyle')}}">شنا کرال سینه</a></li> 
+                                  
+                        </ul>
                     </li>
                     <li ><a class="mobile-view" href="/vscode/website/Login.html">ورود</a></li>
                     <li><a href="{{ url_for('about') }}">درباره ما </a></li>

@@ -4,7 +4,7 @@ article{
     line-height:1.5;
     font-family: "B Nazanin", arial;
     font-size:20px;
-    /* font-weight: bold; */
+    font-weight: bold;
     margin-bottom:80px;    /*new add*/
 }
 article > *{
@@ -22,8 +22,8 @@ article q{
     font-style: italic;
 }
 article h1, h2{
-    margin-top:50px;
-    margin-bottom:20px;
+    margin-top:25px;
+    margin-bottom:25px;
     color:var(--dark-gray);
     font-family: "B Titr", arial;
 }
@@ -56,8 +56,8 @@ article ul li {
     width: 100%;
     max-height: auto;
     float:center;  
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 hr{
     border-top: 2px solid black;
@@ -111,10 +111,12 @@ article a:hover{
 }
 article figure{
     margin-top:30px;
+   text-align:center;
 }
 article figcaption{
     color:red;
     font: bold 16px 'B Titr', arial;
+    text-align:right;
 }
 .text{
     white-space: pre-line;

@@ -198,8 +198,25 @@ def pull_push_legs():
 def body_part():
     return render_template('blog/bodybuilding/body_part.html')
 
+# ####################### amoozesh ####################### #
 
-# #######################  ####################### #
+@app.route('/butterfly')
+def butterfly():
+    return render_template('blog/amoozesh/butterfly.html')
+
+@app.route('/backstroke')
+def backstroke():
+    return render_template('blog/amoozesh/backstroke.html')
+
+@app.route('/breaststroke')
+def breaststroke():
+    return render_template('blog/amoozesh/breaststroke.html')
+
+@app.route('/freestyle')
+def freestyle():
+    return render_template('blog/amoozesh/freestyle.html')
+
+# ####################### login ####################### #
 @app.route('/login')
 def login():
     return render_template('auth/login.html')
