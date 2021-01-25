@@ -7,7 +7,8 @@
 {% block content%}
 <main>
     <div class="header-img">
-        <img src="../../../static/freestyle-image/freestyle-leverage.jpg" alt="">
+        <img src="{{ url_for('static', filename='freestyle-image/freestyle-leverage.jpg')}}" alt="picture">
+ 
     </div>
     <article>
         <h1>تمرین های نفوذ پذیری(اهرم) 
@@ -30,8 +31,8 @@
             </li>
             <li>انتقال نیرو از شکم به اندام ها
             </li>
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/leverage-Three Stroke Switch Freestyle.jpg')}}" alt="picture">
             
-            <img class="picture" src="../../../static/freestyle-image/leverage-Three Stroke Switch Freestyle.jpg" alt="taking bow">
         </ul>
 
         
@@ -60,8 +61,8 @@
             <li>درک رابطه بین بازوی بهبود یافته و بازوی نوازشگر</li>
             <li>احساس شتاب در هنگام سوئیچ</li>
             <li>حفظ تعادل</li>
-            
-            <img class="picture" src="../../../static/freestyle-image/leverage-The Pendulum Effect.jpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/leverage-The Pendulum Effect.jpg')}}" alt="picture">
+     
         </ul>
 
         
@@ -94,8 +95,8 @@
             <li>یادگیری استفاده از اهرم از شکم</li>
             <li>تسلط بر تغییر روی مفصل باسن به باسن
             </li>
-            
-            <img class="picture" src="../../../static/freestyle-image/leverage-Hip Skating.jpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='freestyle-image/leverage-Hip Skating.jpg')}}" alt="picture">
+ 
         </ul>
 
         

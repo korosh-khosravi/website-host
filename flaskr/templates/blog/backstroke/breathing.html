@@ -7,7 +7,8 @@
 {% block content%}
 <main>
     <div class="header-img">
-        <img src="../../../static/backstroke-image/backstroke-breathing.jpg" alt="">
+        <img src="{{ url_for('static', filename='backstroke-image/backstroke-breathing.jpg')}}" alt="picture">
+       
     </div>
     <article>
         <h1>تمرین های نفس گیری کرال پشت
@@ -30,8 +31,8 @@
             <li>مطابقت با میزان استروک و ریتم تنفس
             </li>
             <li>تنفس راحت به پشت</li>
-            
-            <img class="picture" src="../../../static/backstroke-image/breathing-Rhythmic Breathing Sequence.jpg" alt="Rhythmic Breathing Sequence">
+            <img class="picture" src="{{ url_for('static', filename='backstroke-image/breathing-Rhythmic Breathing Sequence.jpg')}}" alt="picture">
+             
         </ul>
 
         
@@ -60,8 +61,8 @@
             <li>یافتن یکی دیگر از مزایای استفاده از رول در ورود و خارج شدن از استروک
             </li>
             <li>هنگام تنفس به پشت ، راحت باشید</li>
-            
-            <img class="picture" src="../../../static/backstroke-image/breathing-The Breathing Pocket.jpg" alt="The Breathing Pocket">
+            <img class="picture" src="{{ url_for('static', filename='backstroke-image/breathing-The Breathing Pocket.jpg')}}" alt="picture">
+    
         </ul>
 
         

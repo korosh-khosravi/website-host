@@ -7,7 +7,8 @@
 {% block content%}
 <main>
     <div class="header-img">
-        <img src="../../../static/backstroke-image/Backstroke-bodyposition.jpg" alt="">
+        <img src="{{ url_for('static', filename='backstroke-image/Backstroke-bodyposition.jpg')}}" alt="picture">
+       
     </div>
     <article>
         <h1>تمرین های وضیعت بدن کرال پشت
@@ -29,8 +30,8 @@
             <li>احساس تنش و ثبات موثر مرکزی ای</li>
             <li>به پشت راحت بودن
             </li>
+            <img class="picture" src="{{ url_for('static', filename='backstroke-image/bodyposition-Float on Spine.jpg')}}" alt="picture">
             
-            <img class="picture" src="../../../static/backstroke-image/bodyposition-Float on Spine.jpg" alt="taking bow">
         </ul>
 
         
@@ -59,8 +60,8 @@
             </li>
             <li>احساس خط آب در اطراف صورت خود</li>
             <li>شل شدن گردن ، شانه ها و قسمت فوقانی پشت</li>
+            <img class="picture" src="{{ url_for('static', filename='backstroke-image/bodyposition-Water-Line Drill.jpg')}}" alt="picture">
             
-            <img class="picture" src="../../../static/backstroke-image/bodyposition-Water-Line Drill.jpg" alt="taking bow">
         </ul>
 
         
@@ -86,8 +87,8 @@
             <li>شروع به احساس فشار از شکم</li>
             <li>شناسایی طولانی ترین حالت کرال پشت 
             </li>
-            
-            <img class="picture" src="../../../static/backstroke-image/bodyposition-Twelve Kick Switch Backstroke.jpg" alt="taking bow">
+            <img class="picture" src="{{ url_for('static', filename='backstroke-image/bodyposition-Twelve Kick Switch Backstroke.jpg')}}" alt="picture">
+ 
         </ul>
 
         
