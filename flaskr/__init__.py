@@ -132,48 +132,6 @@ def freestyle_leverage():
 def freestyle_recovery():
     return render_template('blog/freestyle/recovery.html')
 
-# ####################### article ####################### #
-
-@app.route('/Winter_mixed_swim')
-def number_1():
-    return render_template('blog/article/1.html')
-
-@app.route('/Wim_Hof_Method')
-def number_2():
-    return render_template('blog/article/2.html')
-
-@app.route('/How_to_adapt_your_breaststroke')
-def number_3():
-    return render_template('blog/article/3.html')
-
-@app.route('/Sea_swimming_for_beginners')
-def number_4():
-    return render_template('blog/article/4.html')
-
-@app.route('/How_to_improve_your_swim_strength')
-def number_5():
-    return render_template('blog/article/5.html')
-
-@app.route('/How_to_get_more_out_of_each_stroke')
-def number_6():
-    return render_template('blog/article/6.html')
-
-# @app.route('/How_to_get_more_out_of_each_stroke')
-# def number_7():
-#     return render_template('blog/article/7.html')
-
-# @app.route('/How_to_get_more_out_of_each_stroke')
-# def number_8():
-#     return render_template('blog/article/8.html')
-
-# @app.route('/How_to_get_more_out_of_each_stroke')
-# def number_9():
-#     return render_template('blog/article/9.html')
-
-# @app.route('/How_to_get_more_out_of_each_stroke')
-# def number_10():
-#     return render_template('blog/article/10.html')
-
 # ####################### flexibility ####################### #
 
 @app.route('/Flexibility')
@@ -229,12 +187,53 @@ def forget():
 def register():
     return render_template('auth/register.html')
 
-
-
-
 @app.route('/about_us')
 def about():
     return render_template('blog/about.html')
+
+# ####################### article ####################### #
+
+@app.route('/Winter_mixed_swim')
+def number_1():
+    return render_template('blog/article/1.html')
+
+@app.route('/Wim_Hof_Method')
+def number_2():
+    return render_template('blog/article/2.html')
+
+@app.route('/How_to_adapt_your_breaststroke')
+def number_3():
+    return render_template('blog/article/3.html')
+
+@app.route('/Sea_swimming_for_beginners')
+def number_4():
+    return render_template('blog/article/4.html')
+
+@app.route('/How_to_improve_your_swim_strength')
+def number_5():
+    return render_template('blog/article/5.html')
+
+@app.route('/How_to_get_more_out_of_each_stroke')
+def number_6():
+    return render_template('blog/article/6.html')
+
+@app.route('/The_Difference_Between_Short_Swim_Fins_And_Long')
+def number_7():
+    return render_template('blog/article/7.html')
+
+@app.route('/Which_part')
+def number_8():
+    return render_template('blog/article/8.html')
+
+@app.route('/Can_swimming_help')
+def number_9():
+    return render_template('blog/article/9.html')
+
+@app.route('/How_to_keep_your_swim_fitness')
+def number_10():
+    return render_template('blog/article/10.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
