@@ -257,6 +257,12 @@ footer{
     text-align:center;
     
 }
+iframe{
+    border:4px var(--dark-gray) solid;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 /* style header in mobile */
 @media (max-width:1024px){
     /* Func */
@@ -344,10 +350,5 @@ footer{
         }
     }  
 
-iframe{
-    border:4px var(--dark-gray) solid;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 
