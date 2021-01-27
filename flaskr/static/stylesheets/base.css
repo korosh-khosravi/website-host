@@ -20,10 +20,24 @@
     font-family:'B Nazanin';
     src: url("/static/font/B Nazanin.TTF")
 } */
-@font-face{
+/* @font-face{
     font-family:'B Titr';
-    src: url("/static/font/BTitr.ttf")
-}
+    src: local('/static/font/'),
+        url('/static/font/BTitr.woff2') format('woff2'), 
+        url('/static/font/BTitr.woff') format('woff'), 
+        url('/static/font/BTitr.ttf') format('truetype');
+} */
+
+
+@font-face {font-family: "B Titr";
+    src:
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.eot"), /* IE9*/
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.woff2") format("woff2"), /* chrome、firefox */
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.woff") format("woff"), /* chrome、firefox */
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("/static/font/a0ea7e7833cd4f7694a4913fccb9aacf.svg#B Titr") format("svg"); /* iOS 4.1- */
+  }
 
 @font-face {
     font-family: 'B Nazanin';
@@ -68,10 +82,7 @@ body{
     background-color:white;
     /* height: 100%; */
     height: 100vh;
-    
-    
-    
-    
+
 }
 /* header Func */
 @media (min-width:1025px){
@@ -95,6 +106,7 @@ header{
     position: absolute;
     top:0px;
     left: 25px
+    
 }
 header .top{
     top: 0px;
@@ -285,17 +297,21 @@ iframe{
         nav{
             height:100%;
             background-color:var(--black);
+            
                
         }
         #hamburger-icon{
-            font-size: 2.4rem;
+           
+            font-size: 2.5rem;
             height: 100%;
             width: 60px;
-            line-height: 28px;
+            line-height: 18px;
             color:var(--white);
             background-color: var(--black);
             display: block;
             margin-right:0px;
+            padding-top:20px;
+           
         }
         #hamburger-icon:hover{
             color:var(--yellow);
@@ -335,10 +351,13 @@ iframe{
         }
         header div.logo{     
             height:100%;
+            width:auto;
             left:0;
+            
         }
         div.logo img{
             height:100%;
+            width:inherit;
         }
         nav .main-menu>li>label,nav .main-menu>li>a{
             padding-right:25px;
@@ -348,6 +367,7 @@ iframe{
             padding-top: 50px;
              
         }
+     
     }  
 
 

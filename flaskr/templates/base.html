@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/base.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/normalize.css') }}"/>
     {% block head %}
@@ -13,11 +16,11 @@
     <div id="wrapper"> 
         <header>
             <div class="logo" id="logo">
-                <img src="../static/image/logo.png" alt="logo" srcset="">
+                <img src="{{url_for('static', filename='image/logo.png')}}" alt="logo" srcset="">
             </div>
             
             <div class="top">
-                <img src="../static/image/user.svg" alt="">
+                <img src="{{url_for('static', filename='image/user.svg')}}" alt="picture">
                 <div class="link-div">
                 <a href="{{ url_for('login') }}">Login</a>
                 <span style="font-size: 1rem; color:yellow;">|</span>                
@@ -119,7 +122,7 @@
                                   
                         </ul>
                     </li>
-                    <li ><a class="mobile-view" href="/vscode/website/Login.html">ورود</a></li>
+                    <li ><a class="mobile-view" href="{{url_for('login')}}">ورود</a></li>
                     <li><a href="{{ url_for('about') }}">درباره ما </a></li>
                 </ul>      
             </nav>
@@ -129,7 +132,7 @@
         </div>
         <footer>
             <div class="topfooter">
-                <div class="mail"><a href = "mailto: korosh.khosravi69@gmail.com">&#128231; Send Feedback</a></div>
+                <div class="mail"><a href = "mailto: korosh@swimmingworld.ir">&#128231; Send Feedback</a></div>
             </div>
             <div class="downfooter">
                 <div><small >&copy; korosh khosravi 2021.</small></div>
