@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block head %}
-<title>Home</title>
+<title>SwimmingWorld</title>
+<!-- <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='image/favicon.ico')}}"> -->
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/index.css') }}"/>
 {% endblock %}
 
@@ -10,11 +11,21 @@
     <!-- First Child -->
     <div>
       <div>
-        <a href="{{url_for('number_1')}}">تمرین استروک شنا مختلط در زمستان
+        <a href="{{url_for('number_11')}}">بر ترس خود از شنا در آب های آزاد غلبه کنید
         </a>
       </div>
         <div>
+        <img src="{{ url_for('static', filename='article-image/11.webp') }}" alt="picture">
+      </div>
+    </div>
+    <!-- #1 -->
+    <div>
+      <div>
         <img src="{{ url_for('static', filename='article-image/1.jpg') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_1')}}">تمرین استروک شنا مختلط در زمستان
+        </a>
       </div>
     </div>
     <!-- #2 -->

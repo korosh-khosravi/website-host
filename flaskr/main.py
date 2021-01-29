@@ -237,7 +237,9 @@ def number_9():
 @app.route('/How_to_keep_your_swim_fitness')
 def number_10():
     return render_template('blog/article/10.html')
-
+@app.route('/Overcome_your_open-water_swimming_fears')
+def number_11():
+    return render_template('blog/article/11.html')
 
 
 if __name__ == '__main__':

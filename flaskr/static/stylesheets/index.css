@@ -14,7 +14,7 @@
 }
 .grid div:first-child div:first-child{
     height: 20%;
-    padding:20px;
+    padding:30px;
     font-size:clamp(24px, 4vw, 34px);
     background:black;
     font-weight: bolder;
