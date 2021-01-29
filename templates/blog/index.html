@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>SwimmingWorld</title>
+<!-- <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='image/favicon.ico')}}"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/index.css') }}"/>
+{% endblock %}
+
+{% block content %}
+<main>
+  <div class="grid">
+    <!-- First Child -->
+    <div>
+      <div>
+        <a href="{{url_for('number_11')}}">بر ترس خود از شنا در آب های آزاد غلبه کنید
+        </a>
+      </div>
+        <div>
+        <img src="{{ url_for('static', filename='article-image/11.webp') }}" alt="picture">
+      </div>
+    </div>
+    <!-- #1 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/1.jpg') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_1')}}">تمرین استروک شنا مختلط در زمستان
+        </a>
+      </div>
+    </div>
+    <!-- #2 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/2.jpg') }}" alt="picture">
+      </div>
+         <div>
+        <a href="{{url_for('number_2')}}">روش ویم هوف: این روش چیست و چگونه می تواند به شنا کردن در آب های آزاد کمک کند
+        </a>
+      </div>
+    </div>   
+    <!-- #3 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/3.webp') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_3')}}">چگونه می توانید شنا قورباغه خود را برای آب های آزاد سازگار کنید</a>
+      </div>
+    </div>
+    <!-- #4 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/see_swim_for.webp') }}" alt="">
+      </div>
+      <div>
+        <a href="{{url_for('number_4')}}">شنای دریا برای مبتدیان: نحوه شنا در دریا </a>
+      </div>
+    </div>
+     <!-- #10 -->
+     <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/10.webp') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_10')}}">چگونه تناسب بدن  خود را در بیرون آب حفظ کنیم
+
+        </a>
+      </div>
+    </div>
+    <!-- #5 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/5.webp') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_5')}}">چگونه می توان با  شنا روان  قدرت ، استقامت و سرعت شنای خود را بهبود بخشید
+        </a>
+      </div>
+    </div>
+    <!-- #6 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/6.jpg') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_6')}}">کرال سینه: چگونه می توان از هر استروک بهره بیشتری برد
+        </a>
+      </div>
+    </div>
+    <!-- #7 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/7.jpg') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_7')}}">تفاوت بین فین شنای کوتاه و فین بلند
+        </a>
+      </div>
+    </div>
+    <!-- #8 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/8.webp') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_8')}}">کدام قسمت از حرکت شنای کرال سینه برای رشد سرعت مهم است؟
+        </a>
+      </div>
+    </div>
+    <!-- #9 -->
+    <div>
+      <div>
+        <img src="{{ url_for('static', filename='article-image/9.jpg') }}" alt="picture">
+      </div>
+      <div>
+        <a href="{{url_for('number_9')}}">آیا شنا می تواند به دویدن من کمک کند؟
+        </a>
+      </div>
+    </div>
+   
+ 
+  </div>
+</main>
+{% endblock %}

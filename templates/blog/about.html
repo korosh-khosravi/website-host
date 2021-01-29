@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+
+{% block head%}
+<title>about US</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/article-main.css') }}"/>
+{%endblock%}
+
+{% block content %}
+<div class="about"> 
+    <div class="maindiv">
+        <div class="mypic">
+            <img src="{{url_for('static', filename='image/4.jpg')}}" alt="picture">
+        </div>
+        <q> اینجانب کورش خسروی در سال ۹۵ تحصیلات خود را در رشته مهندسی کامپیوتر گرایش نرم افزار به پایان رساندم و همچنین در زمینه ورزشی مدارک داوری و مربیگری شنا از فدراسیون شنا، شیرجه و واترپولو و نجات غریق از فدراسیون نجات غریق و غواصی کشور را  دریافت کرده ام.
+            لذا کنجکاوی و علاقه خود در هر دو زمینه و با توجه به کمبود منابع آموزشی شنا در داخل کشور، پراکندگی منابع آموزشی و بروز نبودن منابع باعث شد که بر آن شوم تا با خرده دانشی که دارم این وب سایت را طراحی کنم.
+            امیدوارم با این کار گام کوچکی برای ورزش شنا کشورم برداشته باشم.</q>
+    </div>   
+</div>
+{% endblock %}
