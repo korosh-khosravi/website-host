@@ -53,7 +53,7 @@ article figure{
 article figcaption{
     color:red;
     font: bold 16px 'B Titr', arial;
-    direction: ltr;
+    direction: rtl;
 }
 .header-img{
     grid-column: 1/-1;
