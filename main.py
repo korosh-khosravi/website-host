@@ -240,6 +240,9 @@ def number_10():
 @app.route('/Overcome_your_open-water_swimming_fears')
 def number_11():
     return render_template('blog/article/11.html')
+@app.route('/Top_6_annoying_habits_of_pool_swimmers')
+def number_12():
+    return render_template('blog/article/12.html')
 
 
 if __name__ == '__main__':
