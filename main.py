@@ -244,6 +244,5 @@ def number_11():
 def number_12():
     return render_template('blog/article/12.html')
 
-
 if __name__ == '__main__':
     app.run(debug=True)
