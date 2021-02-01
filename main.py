@@ -1,7 +1,7 @@
 from flask import Flask, redirect, url_for, render_template
-from flask_caching import Cache
+# from flask_caching import Cache
 
-cache = Cache()
+# cache = Cache()
 app = Flask(__name__)
 app.static_folder = 'static'
 app.template_folder = 'templates'
