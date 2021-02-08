@@ -112,5 +112,8 @@ img{
         margin-right:25px; 
         margin-left: 25px;
     }
+    .grid div:first-child div:first-child{
+        padding:15px;
+    }
   
 }
