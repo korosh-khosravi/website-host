@@ -243,6 +243,9 @@ def number_11():
 @app.route('/Top_6_annoying_habits_of_pool_swimmers')
 def number_12():
     return render_template('blog/article/12.html')
+@app.route('/What_muscles_do_you_use_in_front_crawl')
+def number_13():
+    return render_template('blog/article/13.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
