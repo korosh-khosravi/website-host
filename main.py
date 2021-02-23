@@ -246,6 +246,10 @@ def number_12():
 @app.route('/What_muscles_do_you_use_in_front_crawl')
 def number_13():
     return render_template('blog/article/13.html')
+@app.route('/Why_can’t_I_swim_straight_freestyle')
+def number_14():
+    return render_template('blog/article/14.html')    
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
