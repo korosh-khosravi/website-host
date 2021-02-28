@@ -246,9 +246,12 @@ def number_12():
 @app.route('/What_muscles_do_you_use_in_front_crawl')
 def number_13():
     return render_template('blog/article/13.html')
-@app.route('/Why_can’t_I_swim_straight_freestyle')
+@app.route('/Why_cant_I_swim_straight_freestyle')
 def number_14():
-    return render_template('blog/article/14.html')    
+    return render_template('blog/article/14.html')
+@app.route('/8_ways_to_beat_open_water_nerves')
+def number_15():
+    return render_template('blog/article/15.html')      
     
 
 if __name__ == '__main__':
