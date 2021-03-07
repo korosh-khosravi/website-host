@@ -111,13 +111,17 @@ article a:hover{
 }
 article figure{
     margin-top:30px;
-   text-align:center;
+    text-align:center;
 }
 article figcaption{
     color:red;
     font: bold 16px 'B Titr', arial;
     text-align:right;
 }
+/* article video{
+    border:4px var(--dark-gray) solid;
+    width:100%;
+} */
 .text{
     white-space: pre-line;
 }

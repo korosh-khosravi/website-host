@@ -253,6 +253,14 @@ def number_14():
 def number_15():
     return render_template('blog/article/15.html')      
     
+@app.route('/How_to_use_the_pool_to_prepare_for_open_water_swimming')
+def number_16():
+    return render_template('blog/article/16.html')      
+
+@app.route('/How_to_get_to_the_swim_buoy_first')
+def number_17():
+    return render_template('blog/article/17.html')      
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
