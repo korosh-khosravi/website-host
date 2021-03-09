@@ -261,6 +261,10 @@ def number_16():
 def number_17():
     return render_template('blog/article/17.html')      
     
+@app.route('/What_are_the_benefits_of_swimming')
+def number_18():
+    return render_template('blog/article/18.html')      
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
