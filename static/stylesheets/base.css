@@ -304,13 +304,14 @@ iframe{
            
             font-size: 1.5rem;
             height: 100%;
-            width: 60px;
+            width: 95px;
             line-height: 18px;
             color:var(--white);
             background-color: var(--black);
             display: block;
             margin-right:0px;
-            padding-top:20px;
+            padding-top:16px;
+            
            
         }
         #hamburger-icon:hover{
