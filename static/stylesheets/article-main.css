@@ -175,7 +175,12 @@ article figcaption{
     padding-top: 25px;
     padding-bottom: auto;  
 }
-
+.source{
+  
+    display:inline-block;
+    direction:ltr;
+    font-size:12px;
+}
 @media (max-width:1024px){
     article{    
         grid-template-columns: 60px 1fr 60px;
