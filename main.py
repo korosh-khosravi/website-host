@@ -263,14 +263,13 @@ def number_17():
     
 @app.route('/What_are_the_benefits_of_swimming')
 def number_18():
-<<<<<<< HEAD
     return render_template('blog/article/18.html')      
 @app.route('/How_to_overcome_your_fear_of_deep_water')
 def number_19():
     return render_template('blog/article/19.html')      
-=======
-    return render_template('blog/article/18.html')         
->>>>>>> develop
+@app.route('/Cold_water_swimming_How_to_acclimatise')
+def number_20():
+    return render_template('blog/article/20.html')      
     
 
 if __name__ == '__main__':
