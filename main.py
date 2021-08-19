@@ -271,7 +271,7 @@ def number_19():
 def number_20():
     return render_template('blog/article/20.html')    
 
-@app.route('/Sub-1hr_session_Warm-up_to_win')
+@app.route('/Sub_1hr_session_Warm_up_to_win')
 def number_21():
     return render_template('blog/article/21.html')      
     
