@@ -269,7 +269,11 @@ def number_19():
     return render_template('blog/article/19.html')      
 @app.route('/Cold_water_swimming_How_to_acclimatise')
 def number_20():
-    return render_template('blog/article/20.html')      
+    return render_template('blog/article/20.html')    
+
+@app.route('/Sub-1hr session: Warm-up to win')
+def number_21():
+    return render_template('blog/article/21.html')      
     
 
 if __name__ == '__main__':
