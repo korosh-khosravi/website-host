@@ -274,7 +274,10 @@ def number_20():
 @app.route('/Sub_1hr_session_Warm_up_to_win')
 def number_21():
     return render_template('blog/article/21.html')      
-    
+
+@app.route('/Three_easy_speed_tweaks')
+def number_22():
+    return render_template('blog/article/22.html')     
 
 if __name__ == '__main__':
     app.run(debug=True)
