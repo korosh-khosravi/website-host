@@ -277,7 +277,11 @@ def number_21():
 
 @app.route('/Three_easy_speed_tweaks')
 def number_22():
-    return render_template('blog/article/22.html')     
+    return render_template('blog/article/22.html')  
+
+@app.route('/How_to_deal_with_tides_when_open_water_swimming')
+def number_23():
+    return render_template('blog/article/23.html')     
 
 if __name__ == '__main__':
     app.run(debug=True)

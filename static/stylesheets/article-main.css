@@ -40,6 +40,8 @@ article h2{
 }
 article p{
     text-align: justify;
+    font-weight: normal;
+    
 }
 article  ul{
     margin-right: 10px;
