@@ -142,12 +142,12 @@ article figcaption{
     max-width:100%;
     max-height:auto;
 }
-/* ########## about ########## */
+/* ############################################# about ############################################# */
 .about{
     width:100%;
-    border: 1px navy solid;
+    border: 1px rgb(17, 17, 17) solid;
     height:calc(100vh - 140px);
-    background-color:navy;
+    background-color:rgb(17, 17, 17);
 }
 .mypic{
     width:150px;
@@ -162,15 +162,29 @@ article figcaption{
     border-radius: 50%;
 }
 .maindiv{
-    border-bottom:4px var(--yellow) solid;
-    border-top:4px var(--yellow) solid ;
+    border-bottom:2px var(--yellow) solid;
+    border-top:2px var(--yellow) solid ;
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    height: 170px;
-    margin-top: 80px;   
+    height: 300px;
+    margin-top: 60px;   
 }
 .maindiv q{
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    padding-bottom: auto;  
+    white-space:pre-line;
+    font-style:italic;
+    font-size: 16px;
+    
+}
+.maindiv q:first-child{
+    font-family: "B Nazanin", Arial, Helvetica, sans-serif;
+    font-size: 18px;
     font-style:italic;
     font-weight: bold;
     color:white;
