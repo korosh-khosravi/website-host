@@ -41,6 +41,9 @@ article h2{
 article p{
     text-align: justify;
     font-weight: normal;
+    font-family: "B Nazanin", arial;
+    font-size: 20px;
+    
     
 }
 article  ul{
